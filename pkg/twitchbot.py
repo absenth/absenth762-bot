@@ -11,5 +11,8 @@ from twitchio.ext import commands
 
 def main():
   load_dotenv()
+  token = os.getenv('TWITCH_OAUTH_TOKEN')
   pass
 
+if __name__ == '__main__':
+  main()

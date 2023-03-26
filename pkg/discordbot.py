@@ -14,3 +14,6 @@ def main():
   load_dotenv()
   pass
 
+
+if __name__ == '__main__':
+  main()
